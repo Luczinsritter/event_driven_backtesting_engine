@@ -48,7 +48,7 @@ event-driven-backtester/
 ├── ema_arima.py                    # Validation strategies (EmaCrossStrategy & ArimaTickStrategy)
 ├── mains_test.py                   # Main-like scripts to run strategies
 ├── requirements.txt                # Python libraries required
-├── example.ipynb                  # Interactive demo to review code and features
+├── example.ipynb                   # Interactive demo to review code and features
 └── images/
     ├── execution.png
     └── visualisation.png
@@ -86,4 +86,5 @@ pip install -r requirements.txt
 - Implement risk management logic (stop‑loss, take‑profit)
 
 ## License
+
 Personal project — free to use and modify for educational or demonstration purposes.
