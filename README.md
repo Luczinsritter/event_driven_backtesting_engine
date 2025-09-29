@@ -1,4 +1,4 @@
-# Event‑Driven Backtesting Engine : Tick‑Level Simulation & Trade Analytics
+# Event‑Driven Backtesting Engine :  Tick or Bar level Simulation & Trade Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -6,13 +6,15 @@
 
 ## Overview
 
-Modular Python framework for **event‑driven backtesting** at tick or bar level, designed to replicate realistic trading execution.  
+Modular Python framework for **event‑driven backtesting** at tick or bar level, designed to replicate realistic trading execution.
 The engine focuses on **capital tracking, trade‑level analytics, and disciplined execution logic**, ensuring signals are generated at *t* and executed at *t+1* to eliminate look‑ahead bias.  
 
 Validated with simple EMA and ARIMA strategies — not for performance optimisation, but to **demonstrate robustness of the framework**:  
 - **Single‑position simulations** (long/short)  
 - **Integrated execution logic** with realistic order handling  
-- **Transparent trade journaling** for post‑analysis and risk metrics  
+- **Transparent trade journaling** for post‑analysis and risk metrics
+
+> note : Currently demonstrated with bar‑level data from Yahoo Finance, but the event‑driven architecture is designed to support true tick‑level feeds if provided.
 
 ## Features
 
@@ -88,3 +90,4 @@ pip install -r requirements.txt
 ## License
 
 Personal project — free to use and modify for educational or demonstration purposes.
+
