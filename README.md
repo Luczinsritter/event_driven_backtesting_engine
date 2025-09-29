@@ -79,11 +79,11 @@ pip install -r requirements.txt
 
 ## Next Steps
 
-- Integrate transaction costs and slippage directly into execution (currently only applied in post‑analysis)
+- Integrate transaction costs and slippage directly into the execution layer (currently only applied in post‑analysis)
 - Use a true tick‑by‑tick microstructure
-- Integrate Kelly Criterion for dynamic sizing and allow multiple simultaneous positions
-- Drawdown curve visualisation
-- Implement risk management logic (stop‑loss, take‑profit)
+- Extend the Kelly Criterion for dynamic sizing and allow multiple simultaneous positions
+- Implement continuous Max Drawdown (rather than discrete, end‑of‑trade only) and provide drawdown curve visualisation.
+- Add risk management logic (stop‑loss, take‑profit)
 
 ## License
 
