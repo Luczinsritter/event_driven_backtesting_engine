@@ -1,0 +1,7 @@
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+yfinance==0.2.43
+quantstats==0.0.62
+scikit-learn==1.5.2
+statsmodels==0.14.4
